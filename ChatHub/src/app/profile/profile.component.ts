@@ -12,7 +12,6 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit(): void {
     this.user.sharedUserInfo.subscribe(message => this.result = message)
-    console.log(this.result.nickname)
   }
 
 }
